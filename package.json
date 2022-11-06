@@ -1,0 +1,16 @@
+{
+  "name": "news-api-node-js",
+  "version": "1.0.0",
+  "description": "A Real Time app using Node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "Zack",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  }
+}

@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+  #menu li {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+  .navigation {
+    display: none;
+    flex-direction: column;
+  }
+  .block {
+    display: block;
+  }
+  #navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  #navbar ul li {
+    padding: 0.5rem;
+  }
+  #navbar ul a {
+    font-size: 2rem;
+  }
+  .news-container {
+    padding: 5rem 1rem;
+  }
+  .news-container #myCard {
+    width: auto;
+  }
+  #err img {
+    height: 20rem;
+  }
+  .about_contain img {
+    height: 20rem;
+  }
+  #logo {
+    height: 12rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  #navbar li {
+    padding: 0.5rem;
+  }
+  .news-container #myCard {
+    width: 40%;
+  }
+}/*# sourceMappingURL=resp.css.map */

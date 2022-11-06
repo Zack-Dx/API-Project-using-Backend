@@ -1,0 +1,13 @@
+//Display Flex
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+//Text Alignment
+@mixin text {
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+{{>headlinks}}
+  <body>
+{{>navbar}}
+
+ 
+
+ <!-- Cards -->
+ 
+  <div class="news-container ">
+    <h1>BUSINESS</h1>
+      {{#each business}}
+   <div id="myCard">
+   
+      <img src="{{this.urlToImage}}" alt="">
+      <h2>{{this.title}}</h2>
+      <p>{{this.description}}</p>
+      <a href="{{this.url}}"><button id="btn1">Read More</button></a>
+      
+    </div>
+ {{/each}}
+  </div>
+   
+
+{{>footer}}
+
+    <!-- Script -->
+
+  </body>
+
+<script src="js/burger.js"></script>
+</html>
