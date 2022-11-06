@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const hbs = require("hbs");
 const app = express();
-const port = process.env.PORT || 4002;
+const port = process.env.PORT || 4000;
 
 // Your API KEY
 const apiKey = "(Your API KEY)";
