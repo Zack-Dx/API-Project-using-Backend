@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 
 // Your API KEY
-const apiKey = "(Your API KEY)";
+const apiKey = "Your API KEY";
 
 //Partials Path:
 const partialPath = path.join(__dirname, "./templates/partials");
