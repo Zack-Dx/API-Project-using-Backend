@@ -80,6 +80,7 @@ app.get("*", (req, res) => res.render(`404error`));
 app.listen(port, () => console.log(`Server running at port ${port}`));
 
 //Headlines Section
+
 let headlinesData;
 const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=${apiKey}`;
 const apiCall = async () => {
@@ -91,6 +92,7 @@ const apiCall = async () => {
 apiCall();
 
 //Technology Section:
+
 let technologyData;
 const technologyurl = `https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=${apiKey}`;
 
@@ -114,7 +116,6 @@ businessapi();
 
 // Sports Section
 
-console.log("Hello");
 const sportsurl = `https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=${apiKey}`;
 const sportapi = async () => {
   const response = await fetch(sportsurl);
